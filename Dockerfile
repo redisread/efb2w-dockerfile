@@ -1,5 +1,5 @@
 # 基于lzyyauto/efb2w镜像
-FROM lzyyauto/efb2w
+FROM lzyyauto/efb2w:v2
 
 # 创建需要的目录结构
 RUN mkdir -p /root/.ehforwarderbot/profiles/default/blueset.telegram/
